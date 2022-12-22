@@ -6,7 +6,7 @@ Speeds up lighting fires since the drills no longer have to be in a container to
 # Settings
 |Name|Default|Description|
 |--|--|--|
-|CardNames|BowDrill, HandDrill|The cards to ignore from rummaging events.|
+|CardNames|BowDrill, HandDrill, StoneSharpened|The cards to ignore from rummaging events.|
 
 # Changing the Configuration
 All options are contained in the config file which is located at ```<Steam Directory>\steamapps\common\Card Survival Tropical Island\BepInEx\config\DoNotSteal.cfg```.
@@ -61,3 +61,8 @@ Safe to add and remove from existing saves.
 # Credits
 <a href="https://www.flaticon.com/free-icons/monkey" title="monkey icons">Monkey icons created by Freepik - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/fire" title="fire icons">Fire icons created by Freepik - Flaticon</a>
+
+# Change Log
+## 1.1.0
+* Added Sharpened Stones to the list.
+* Removed debug log output.

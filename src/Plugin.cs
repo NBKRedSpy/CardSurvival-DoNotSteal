@@ -20,7 +20,7 @@ namespace DoNotSteal
             Log = Logger;
 
             string csvCardNames = Config.Bind("General", nameof(CardNames),
-                "BowDrill, HandDrill", "The cards to ignore from rummaging events.")
+                "BowDrill, HandDrill, StoneSharpened", "The cards to ignore from rummaging events.")
                 .Value;
 
             CardNames = csvCardNames.Split(',').ToList().Select(x => x.Trim()).ToList();

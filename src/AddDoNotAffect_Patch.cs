@@ -23,9 +23,6 @@ namespace DoNotSteal
 
             List<UniqueIDScriptable> cards = GameLoad.Instance.DataBase.AllData;
 
-            Plugin.LogInfo("Cards: " + String.Join(",",cards.Where(x => x.name.Contains("Drill")).Select(x => x.name)));
-
-
             //Get the cards to ignore
             CardOrTagRef[] ignoreCards = cards
                 .Where(x =>
