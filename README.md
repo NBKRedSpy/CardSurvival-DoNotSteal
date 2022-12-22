@@ -6,7 +6,7 @@ Speeds up lighting fires since the drills no longer have to be in a container to
 # Settings
 |Name|Default|Description|
 |--|--|--|
-CardNames|BowDrill, HandDrill|The cards to ignore from rummaging events.|
+|CardNames|BowDrill, HandDrill|The cards to ignore from rummaging events.|
 
 # Changing the Configuration
 All options are contained in the config file which is located at ```<Steam Directory>\steamapps\common\Card Survival Tropical Island\BepInEx\config\DoNotSteal.cfg```.
